@@ -21,31 +21,23 @@
   <br>
 
   <section>
-
     <picture>
       <!-- Square Image -->
-        <source class="avatar" srcset="images/museum.jpg-1440w"
-                media="(min-width: 1440px)" sizes="50vw">
-
-        <source class="avatar" srcset="images/museum-960w.jpg"
-                media="(min-width: 960px)" sizes="50vw">
-
-        <source class="avatar" srcset="images/museum-480w.jpg"
-                media="(min-width: 480px)" sizes="50vw">
-
+        <source class="avatar" srcset="images/museum.jpg"
+                media="(min-width: 1440px),
+                        (min-width: 960px),
+                        (min-width: 480px)">
 
       <!-- Landscape Image -->
-        <source srcset="images/museum-960w.jpg"
-                media="(max-width: 960px)" sizes="100vw">
-
-        <source srcset="images/museum-640w.jpg"
-                media="(max-width: 640px)" sizes="100vw">
-
-        <source srcset="images/museum-320w.jpg"
-                media="(max-width: 320px)" sizes="100vw">
+        <source srcset="images/museum.jpg"
+                media="(max-width: 960px),
+                        (max-width: 640px),
+                        (max-width: 320px)">
 
         <img src="images/museum.jpg" alt="placeholder">
+    </picture>
   </section>
+
 </body>
 
 </html>

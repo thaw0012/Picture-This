@@ -15,7 +15,38 @@
       <h1>Picture This!</h1>
       <h4>My Really Cool Blog Post</h4>
     </div>
-    <img src="images/museum.jpg" alt="placeholder">
+  <img src="images/museum.jpg" alt="placeholder">
+  
+  <section>
+
+  <br>
+
+    <picture>
+      <!-- Square Image -->
+        <source class="avatar" srcset="images/museum.jpg"
+                media="(min-width: 1440px)" sizes="50vw">
+
+        <source class="avatar" srcset="images/museum.jpg"
+                media="(min-width: 960px)" sizes="50vw">
+
+        <source class="avatar" srcset="images/museum.jpg"
+                media="(min-width: 480px)" sizes="50vw">
+
+
+      <!-- Landscape Image -->
+        <source srcset="images/museum.jpg"
+                media="(max-width: 960px)" sizes="100vw">
+
+        <source srcset="images/museum.jpg"
+                media="(max-width: 640px)" sizes="100vw">
+
+        <source srcset="images/museum.jpg"
+                media="(max-width: 320px)" sizes="100vw">
+
+        <img src="images/museum.jpg" alt="placeholder">
+  </section>
+
+
 
   </section>
 
